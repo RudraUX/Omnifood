@@ -272,12 +272,19 @@ header {
 /*?------------------------------------------*/
 /**How it works*/
 /*?------------------------------------------*/
+.section-steps{
+  background-color: #f4f4f4;
+  margin-top: -80px;
+}
+
+.section-steps h2{
+  padding-top: 7%;
+}
 
 .section-steps .app-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  margin-top: ;
+  grid-template-rows: auto;
 }
 
 .step-box {
